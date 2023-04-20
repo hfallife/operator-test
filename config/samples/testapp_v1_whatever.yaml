@@ -1,0 +1,12 @@
+apiVersion: testapp.github.com/v1
+kind: Whatever
+metadata:
+  labels:
+    app.kubernetes.io/name: whatever
+    app.kubernetes.io/instance: whatever-sample
+    app.kubernetes.io/part-of: operator-test
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: operator-test
+  name: whatever-sample
+spec:
+  # TODO(user): Add fields here
